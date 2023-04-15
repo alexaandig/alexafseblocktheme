@@ -9,7 +9,7 @@
     }
 }
 /* Screen Larger than 782px 3 Columns */
-@media (mi-width: 782px) {
+@media (min-width: 782px) {
     .wp-columns {
         grid-template-columns: repeat(3, 1fr);
     }
