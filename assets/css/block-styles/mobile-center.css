@@ -20,6 +20,5 @@
   .is-style-mobile-center .is-content-justification-right,
   .is-style-mobile-center .is-content-justification-left {
     justify-content: center !important;
-	flex-direction:	column !important;
   }
 }
