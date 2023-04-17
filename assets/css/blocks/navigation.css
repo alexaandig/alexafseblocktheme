@@ -89,7 +89,7 @@ body .wp-block-navigation .wp-block-navigation-item__description {
   margin-top: 0.5rem;
   opacity: 0;
   transition: 0.4s all ease-out;
-  transform: translateX(-15px);
+  transform: translateX(-5px);
 }
 
 .wp-block-navigation__submenu-container li:not(.wp-block-navigation-submenu) a:hover:before {
