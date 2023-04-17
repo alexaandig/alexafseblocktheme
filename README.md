@@ -1,6 +1,6 @@
 /**
  * Theme Name: Alexa FSE
- * Theme URI: https://alexaandig.mml/alexafse/
+ * Theme URI: https://alexaandig.ml/alexafse/
  * Author: Alexa Andig
  * Author URI: https://alexaandig.ml/
  * Description: Lightweight full site editing block theme framework. Alexa provides useful features that help you build modern WordPress sites with blocks. Optimized for speed. Designed for use with child themes and compatible with most popular plugins. Alexa is a great starting point and toolkit for building your own custom block theme.
