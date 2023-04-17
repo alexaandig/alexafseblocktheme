@@ -1,0 +1,8 @@
+
+.is-style-slide {
+  transition: all 0.3s ease-in-out;
+}
+
+.is-style-slide:hover {
+  transform: translateX(4px);
+}

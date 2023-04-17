@@ -1,0 +1,8 @@
+
+.is-style-sink {
+  transition: all 0.3s ease-in-out;
+}
+
+.is-style-sink:hover {
+  transform: translateY(5px);
+}
