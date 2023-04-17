@@ -12,7 +12,7 @@
 
 .wp-block-navigation li.has-child:not(.open-on-click) > .wp-block-navigation__submenu-container,
 .wp-block-navigation li.has-child:not(.open-on-click):hover > .wp-block-navigation__submenu-container {
-  min-width: 250px;
+  min-width: 200px;
 }
 
 .wp-block-navigation__submenu-container .wp-block-navigation-item__content {
@@ -82,7 +82,7 @@ body .wp-block-navigation .wp-block-navigation-item__description {
 .wp-block-navigation__submenu-container li:not(.wp-block-navigation-submenu) a:before {
   position: absolute;
   right: 0;
-  margin-right: 1.3em;
+  margin-right: 0.5em;
   background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAzMiAzMic+PHBvbHlnb24gcG9pbnRzPScyMS40MTgsMjUuMTQzIDE5LjI5NywyMy4wMjIgMjQuODE4LDE3LjUgMS40MzksMTcuNSAxLjQzOSwxNC41IDI0LjgxOCwxNC41IDE5LjI5Nyw4Ljk3OCAyMS40MTgsNi44NTcgMzAuNTYxLDE2ICcvPjwvc3ZnPg==");
   width: 15px;
   height: 15px;
