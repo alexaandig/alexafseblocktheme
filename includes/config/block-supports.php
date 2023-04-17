@@ -146,13 +146,6 @@ function register_block_supports( array $config = [] ): array {
 					'color' => true,
 				],
 			],
-			'__experimentalLayout' => [
-				'allowSwitching'  => false,
-				'allowInheriting' => false,
-				'default'         => [
-					'type'           => 'flex',
-				],
-			],
 			'alexaPosition'     => true,
 			'alexaAnimation'      => true,
 			'alexaBoxShadow'      => true,
