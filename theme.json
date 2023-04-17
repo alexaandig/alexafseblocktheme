@@ -902,6 +902,12 @@
 					"background": "var(--wp--preset--color--primary)",
 					"text": "#fff"
 				},
+				":hover": {
+					"color": {
+						"background": "var(--wp--preset--color--primary)",
+						"text": "var(--wp--preset--color--background-alt)"
+					}
+				},
 				"spacing": {
 					"padding": {
 						"bottom": "1rem",
