@@ -2029,17 +2029,16 @@
                 ),
                 0
             ),
-                (0, a.addFilter)(
-                    "blocks.getSaveContent.extraProps",
-                    "alexa/alignment-class",
-                    (e, t, n) => (
-                        Object.keys(s).includes(t.name) &&
-                        n?.align &&
-                        !e.className.includes(" align") &&
-                        (e.className += " align" + n.align),
-                        e
-                    )
-                ),
+            (0, a.addFilter)(
+                "blocks.getSaveContent.extraProps",
+                "alexa/alignment-class",
+                (e, t, n) => {
+                    if (e && e.className && Object.keys(s).includes(t.name) && n?.align && !e.className.includes(" align")) {
+                        e.className += " align" + n.align;
+                    }
+                    return e;
+                }
+            ),            
                 (0, a.addFilter)(
                     "blocks.registerBlockType",
                     "alexa/block-attributes-search",
