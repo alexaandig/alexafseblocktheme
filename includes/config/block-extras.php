@@ -165,5 +165,127 @@ function get_block_extra_options(): array {
 			'value' => 'max-height',
 			'label' => __('Max Height', 'alexa'),
 		],
+		'flex-direction' => [
+			'value'   => 'flex-direction',
+			'label'   => __( 'Flex Direction', 'alexa' ),
+			'options' => [
+				[
+					'label' => __( 'Row', 'alexa' ),
+					'value' => 'row',
+				],
+				[
+					'label' => __( 'Row Reverse', 'alexa' ),
+					'value' => 'row-reverse',
+				],
+				[
+					'label' => __( 'Column', 'alexa' ),
+					'value' => 'column',
+				],
+				[
+					'label' => __( 'Column Reverse', 'alexa' ),
+					'value' => 'column-reverse',
+				],
+			],
+		],
+		'flex-wrap'       => [
+			'value'   => 'flex-wrap',
+			'label'   => __( 'Flex Wrap', 'alexa' ),
+			'options' => [
+				[
+					'label' => __( 'Wrap', 'alexa' ),
+					'value' => 'wrap',
+				],
+				[
+					'label' => __( 'No Wrap', 'alexa' ),
+					'value' => 'nowrap',
+				],
+				[
+					'label' => __( 'Wrap Reverse', 'alexa' ),
+					'value' => 'wrap-reverse',
+				],
+			],
+		],
+		'justify-content' => [
+			'value'   => 'justify-content',
+			'label'   => __( 'Justify Content', 'alexa' ),
+			'options' => [
+				[
+					'label' => __( 'Start', 'alexa' ),
+					'value' => 'flex-start',
+				],
+				[
+					'label' => __( 'End', 'alexa' ),
+					'value' => 'flex-end',
+				],
+				[
+					'label' => __( 'Center', 'alexa' ),
+					'value' => 'center',
+				],
+				[
+					'label' => __( 'Space Between', 'alexa' ),
+					'value' => 'space-between',
+				],
+				[
+					'label' => __( 'Space Around', 'alexa' ),
+					'value' => 'space-around',
+				],
+			],
+		],
+		'align-items'     => [
+			'value'   => 'align-items',
+			'label'   => __( 'Align Items', 'alexa' ),
+			'options' => [
+				[
+					'label' => __( 'Start', 'alexa' ),
+					'value' => 'flex-start',
+				],
+				[
+					'label' => __( 'End', 'alexa' ),
+					'value' => 'flex-end',
+				],
+				[
+					'label' => __( 'Center', 'alexa' ),
+					'value' => 'center',
+				],
+				[
+					'label' => __( 'Baseline', 'alexa' ),
+					'value' => 'baseline',
+				],
+				[
+					'label' => __( 'Stretch', 'alexa' ),
+					'value' => 'stretch',
+				],
+			],
+		],
+		'align-content'   => [
+			'value'   => 'align-content',
+			'label'   => __( 'Align Content', 'alexa' ),
+			'options' => [
+				[
+					'label' => __( 'Start', 'alexa' ),
+					'value' => 'flex-start',
+				],
+				[
+					'label' => __( 'End', 'alexa' ),
+					'value' => 'flex-end',
+				],
+				[
+					'label' => __( 'Center', 'alexa' ),
+					'value' => 'center',
+				],
+				[
+					'label' => __( 'Space Between', 'alexa' ),
+					'value' => 'space-between',
+				],
+				[
+					'label' => __( 'Space Around', 'alexa' ),
+					'value' => 'space-around',
+				],
+				[
+					'label' => __( 'Stretch', 'alexa' ),
+					'value' => 'stretch',
+				],
+			],
+		],
 	];
 }
