@@ -6,6 +6,7 @@
     justify-content: center !important;
     align-items: center !important;
     text-align: center !important;
+    align-content: center !important;
   }
 
   .is-style-mobile-center *[style*="text-align:right"] {
@@ -20,5 +21,6 @@
   .is-style-mobile-center .is-content-justification-right,
   .is-style-mobile-center .is-content-justification-left {
     justify-content: center !important;
+    align-content: center !important;
   }
 }
