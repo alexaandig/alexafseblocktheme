@@ -1,0 +1,8 @@
+/* All - Hover Background */
+.is-style-hover-bg {
+    transition: background-color 0.35s ease-out;
+}
+
+.is-style-hover-bg:hover {
+    background-color: var(--wp--preset--color--midground) ;
+}

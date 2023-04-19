@@ -189,6 +189,11 @@ function register_block_styles( array $config ): array {
 				'type'  => 'core/group',
 				'name'  => 'mobile-center',
 				'label' => __( 'Mobile Center', 'alexa' ),
+			],
+			[
+				'type'  => 'core/group',
+				'name'  => 'hover-bg',
+				'label' => __( 'Hover BG', 'alexa' ),
 			],			
 			[
 				'type'  => 'core/paragraph',

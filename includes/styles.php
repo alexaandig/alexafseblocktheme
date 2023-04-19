@@ -313,6 +313,7 @@ function get_conditional_stylesheets( string $content, bool $is_editor ): string
 		'shrink'    => str_contains($content, 'is-style-shrink'),
 		'sink'    => str_contains( $content, 'is-style-sink' ),
 		'slide'    => str_contains($content, 'is-style-slide'),
+		'hover-bg'    => str_contains($content, 'is-style-hover-bg'),
 	];
 
 	$conditions['block-variations'] = [
