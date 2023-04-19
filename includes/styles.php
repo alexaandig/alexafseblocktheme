@@ -314,6 +314,11 @@ function get_conditional_stylesheets( string $content, bool $is_editor ): string
 		'sink'    => str_contains( $content, 'is-style-sink' ),
 		'slide'    => str_contains($content, 'is-style-slide'),
 		'hover-bg'    => str_contains($content, 'is-style-hover-bg'),
+		'dots'    => str_contains($content, 'is-style-dots'),
+		'boxes'    => str_contains($content, 'is-style-boxes'),
+		'button'    => str_contains($content, 'is-style-button'),
+		'hover-zoom'    => str_contains($content, 'is-style-hover-zoom'),
+		'group-squeeze'    => str_contains($content, 'is-style-group-squeeze'),
 	];
 
 	$conditions['block-variations'] = [

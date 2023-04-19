@@ -1,0 +1,34 @@
+/* Post Navigation - Button */
+.is-style-button.wp-block-query-pagination-next,
+.is-style-button.wp-block-query-pagination-previous,
+.wp-block-post-navigation-link.is-style-button a {
+    display: inline-flex;
+    align-items: center;
+    padding: 16px 32px;
+    border: 1px solid;
+    border-radius: 100px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.wp-block-query-pagination-previous:before,
+.post-navigation-link-previous.is-style-button a:before  {
+    content:"";
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpolygon points='10.583,25.143 1.439,16 10.583,6.857 12.704,8.978 7.182,14.5 30.561,14.5 30.561,17.5 7.182,17.5 12.704,23.022 '/%3E%3C/svg%3E");
+}
+
+.wp-block-query-pagination-next:after,
+.post-navigation-link-next.is-style-button a:after  {
+    content:"";
+    width: 20px;
+    height: 20px;
+    margin-left: 12px;
+}
+
+.wp-block-query-pagination-next:after,
+.post-navigation-link-next.is-style-button a:after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpolygon points='21.418,25.143 19.297,23.022 24.818,17.5 1.439,17.5 1.439,14.5 24.818,14.5 19.297,8.978 21.418,6.857 30.561,16 '/%3E%3C/svg%3E");
+}

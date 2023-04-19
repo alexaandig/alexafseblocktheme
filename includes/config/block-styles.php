@@ -131,6 +131,16 @@ function register_block_styles( array $config ): array {
 				'label' => __( 'Badges', 'alexa' ),
 			],
 			[
+				'type'  => 'core/post-terms',
+				'name'  => 'dots',
+				'label' => __( 'Dots', 'alexa' ),
+			],
+			[
+				'type'  => 'core/post-terms',
+				'name'  => 'boxes',
+				'label' => __( 'Boxes', 'alexa' ),
+			],
+			[
 				'type'  => 'core/read-more',
 				'name'  => 'button',
 				'label' => __( 'Button', 'alexa' ),
@@ -194,11 +204,26 @@ function register_block_styles( array $config ): array {
 				'type'  => 'core/group',
 				'name'  => 'hover-bg',
 				'label' => __( 'Hover BG', 'alexa' ),
-			],			
+			],
+			[
+				'type'  => 'core/group',
+				'name'  => 'group-squeeze',
+				'label' => __( 'Group Squeeze', 'alexa' ),
+			],				
 			[
 				'type'  => 'core/paragraph',
 				'name'  => 'mobile-center',
 				'label' => __( 'Mobile Center', 'alexa' ),
+			],
+			[
+				'type'  => 'core/post-navigation',
+				'name'  => 'button',
+				'label' => __( 'Button', 'alexa' ),
+			]
+			[
+				'type'  => 'core/iamge',
+				'name'  => 'hover-zoom',
+				'label' => __( 'Hover Zoom', 'alexa' ),
 			],
 		],
 

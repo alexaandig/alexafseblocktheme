@@ -1,0 +1,8 @@
+/* Image - Hover Zoom */
+.wp-block-image.is-style-hover-zoom {
+    transition: transform 0.35s ease-out;
+}
+
+.wp-block-image.is-style-hover-zoom:hover  {
+    transform: scale(1.15); 
+}

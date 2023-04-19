@@ -1,0 +1,4 @@
+/* Group items squeeze */
+.is-style-group-squeeze.wp-block-group > .wp-block-group {
+    margin-left: -20px;
+}

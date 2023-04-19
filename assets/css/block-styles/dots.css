@@ -1,0 +1,12 @@
+/* Post Terms - Dots */
+.wp-block-post-terms.taxonomy-post_tag.is-style-dots .wp-block-post-terms__separator {
+    font-size: 0;
+}
+
+.wp-block-post-terms.taxonomy-post_tag.is-style-dots .wp-block-post-terms__separator:after {
+    content: "•";
+    font-size: 10px;
+    padding: 0 0.75em;
+    top: -0.25em;
+    position: relative;
+}

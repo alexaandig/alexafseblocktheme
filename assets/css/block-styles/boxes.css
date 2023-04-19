@@ -1,0 +1,20 @@
+/* Post Terms - Boxes */
+.wp-block-post-terms.is-style-boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+    font-weight: 600;
+}
+
+.wp-block-post-terms.is-style-boxes a {
+    background-color: var(--wp--preset--color--midground);
+    padding: 10px 16px;
+    display: inline-flex;
+    border-radius: 100px;
+    line-height: 1;
+}
+
+.wp-block-post-terms.is-style-boxes span {
+    display: none;
+}
