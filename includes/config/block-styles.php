@@ -221,7 +221,7 @@ function register_block_styles( array $config ): array {
 				'label' => __( 'Button', 'alexa' ),
 			]
 			[
-				'type'  => 'core/iamge',
+				'type'  => 'core/image',
 				'name'  => 'hover-zoom',
 				'label' => __( 'Hover Zoom', 'alexa' ),
 			],
