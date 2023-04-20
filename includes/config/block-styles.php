@@ -200,6 +200,11 @@ function register_block_styles( array $config ): array {
 				'name'  => 'mobile-center',
 				'label' => __( 'Mobile Center', 'alexa' ),
 			],
+            [
+				'type'  => 'core/buttons',
+				'name'  => 'mobile-center',
+				'label' => __( 'Mobile Center', 'alexa' ),
+			],
 			[
 				'type'  => 'core/group',
 				'name'  => 'hover-bg',
@@ -220,11 +225,6 @@ function register_block_styles( array $config ): array {
 				'name'  => 'button',
 				'label' => __( 'Button', 'alexa' ),
 			]
-			[
-				'type'  => 'core/image',
-				'name'  => 'hover-zoom',
-				'label' => __( 'Hover Zoom', 'alexa' ),
-			],
 		],
 
 		'unregister' => [
