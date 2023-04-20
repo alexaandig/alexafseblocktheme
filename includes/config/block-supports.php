@@ -406,6 +406,7 @@ function register_block_supports( array $config = [] ): array {
 			'spacing'   => [
 				'margin'  => true,
 				'padding' => true,
+				'blockGap' => true,
 			],
 		],
 		'core/post-author'         => [
