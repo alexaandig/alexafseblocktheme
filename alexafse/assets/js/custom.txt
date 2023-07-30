@@ -1,0 +1,32 @@
+(()=>{
+    var u = (e,t)=>()=>(t || e((t = {
+        exports: {}
+    }).exports, t),
+    t.exports);
+    var Xi = u(()=>{
+        window.tram = function(e) {
+            function t(l, E) {
+                var I = new B.Bare;
+                return I.init(l, E)
+            }
+
+            // ... Add the rest of the 'tram' function code here ...
+
+            return t
+        } (function(e, t) {
+            return {
+                Bare: e((function() {
+                    function e() {}
+                    return e.prototype.i = function(e) {
+                        return e
+                    }
+                    ,
+                    e
+                }
+                )()),
+            // ... More code ...
+            }
+        })
+        );
+    })();
+})();
